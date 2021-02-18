@@ -10,6 +10,10 @@ app.get("/", (req, res) => {
   res.sendFile(path.resolve(__dirname, "pages/index.html"));
 });
 
+app.get("/", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "pages/about.html"));
+});
+
 app.listen(4000, () => {
   console.log("App is listening on port 4000");
 });
