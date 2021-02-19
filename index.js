@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.resolve(__dirname, "pages/index.html"));
 });
 
-app.get("/", (req, res) => {
+app.get("/about", (req, res) => {
   res.sendFile(path.resolve(__dirname, "pages/about.html"));
 });
 
